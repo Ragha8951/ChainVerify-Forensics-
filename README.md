@@ -119,6 +119,9 @@ python app.py
 
 
 
+## Project Structure
+
+```text
 IMAGE_INTEGRITY_SYSTEM/
 ├── app.py
 ├── config.py
@@ -160,6 +163,7 @@ IMAGE_INTEGRITY_SYSTEM/
 │   └── video_frames/
 │
 ├── reconstructed/
+│
 ├── outputs/
 │   ├── images/
 │   └── recovered_video/
@@ -174,11 +178,14 @@ IMAGE_INTEGRITY_SYSTEM/
 │   └── signup.html
 │
 ├── static/
-│   ├── css/style.css
-│   └── js/main.js
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── main.js
 │
 └── venv/
 
+```
 ---
 
 ## Notes
